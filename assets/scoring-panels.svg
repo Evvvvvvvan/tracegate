@@ -1,0 +1,43 @@
+<svg width="1600" height="820" viewBox="0 0 1600 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="820" rx="32" fill="#0F172A"/>
+<text x="84" y="92" fill="#F8FAFC" font-size="52" font-family="Arial, Helvetica, sans-serif" font-weight="800">Scoring Panels</text>
+<text x="84" y="138" fill="#94A3B8" font-size="24" font-family="Arial, Helvetica, sans-serif">Two-stage evaluation designed to reward natural browsing and challenge completion quality.</text>
+<rect x="84" y="214" width="670" height="514" rx="28" fill="#111827" stroke="#334155"/>
+<text x="124" y="272" fill="#F8FAFC" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="700">Primary Score</text>
+<text x="124" y="318" fill="#9CA3AF" font-size="22" font-family="Arial, Helvetica, sans-serif">Silent observation before interruption</text>
+<rect x="124" y="356" width="590" height="54" rx="16" fill="#0B1220"/>
+<text x="150" y="391" fill="#E5E7EB" font-size="22" font-family="Arial, Helvetica, sans-serif">Dwell time</text>
+<rect x="520" y="372" width="158" height="20" rx="10" fill="#22C55E"/>
+<rect x="124" y="430" width="590" height="54" rx="16" fill="#0B1220"/>
+<text x="150" y="465" fill="#E5E7EB" font-size="22" font-family="Arial, Helvetica, sans-serif">Pointer path richness</text>
+<rect x="520" y="446" width="132" height="20" rx="10" fill="#38BDF8"/>
+<rect x="124" y="504" width="590" height="54" rx="16" fill="#0B1220"/>
+<text x="150" y="539" fill="#E5E7EB" font-size="22" font-family="Arial, Helvetica, sans-serif">Direction and speed variance</text>
+<rect x="520" y="520" width="184" height="20" rx="10" fill="#8B5CF6"/>
+<rect x="124" y="578" width="590" height="54" rx="16" fill="#0B1220"/>
+<text x="150" y="613" fill="#E5E7EB" font-size="22" font-family="Arial, Helvetica, sans-serif">Clicks / keys / scroll participation</text>
+<rect x="520" y="594" width="140" height="20" rx="10" fill="#22C55E"/>
+<rect x="124" y="652" width="590" height="54" rx="16" fill="#0B1220"/>
+<text x="150" y="687" fill="#E5E7EB" font-size="22" font-family="Arial, Helvetica, sans-serif">Synthetic / anomaly penalties</text>
+<rect x="520" y="668" width="98" height="20" rx="10" fill="#F97316"/>
+<rect x="846" y="214" width="670" height="514" rx="28" fill="#111827" stroke="#334155"/>
+<text x="886" y="272" fill="#F8FAFC" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="700">Secondary Score</text>
+<text x="886" y="318" fill="#9CA3AF" font-size="22" font-family="Arial, Helvetica, sans-serif">Challenge quality, not just completion</text>
+<rect x="886" y="356" width="590" height="54" rx="16" fill="#0B1220"/>
+<text x="912" y="391" fill="#E5E7EB" font-size="22" font-family="Arial, Helvetica, sans-serif">Drag duration</text>
+<rect x="1282" y="372" width="136" height="20" rx="10" fill="#22C55E"/>
+<rect x="886" y="430" width="590" height="54" rx="16" fill="#0B1220"/>
+<text x="912" y="465" fill="#E5E7EB" font-size="22" font-family="Arial, Helvetica, sans-serif">Drag sample density</text>
+<rect x="1282" y="446" width="164" height="20" rx="10" fill="#38BDF8"/>
+<rect x="886" y="504" width="590" height="54" rx="16" fill="#0B1220"/>
+<text x="912" y="539" fill="#E5E7EB" font-size="22" font-family="Arial, Helvetica, sans-serif">Scroll depth and rhythm</text>
+<rect x="1282" y="520" width="178" height="20" rx="10" fill="#8B5CF6"/>
+<rect x="886" y="578" width="590" height="54" rx="16" fill="#0B1220"/>
+<text x="912" y="613" fill="#E5E7EB" font-size="22" font-family="Arial, Helvetica, sans-serif">Challenge dwell time</text>
+<rect x="1282" y="594" width="122" height="20" rx="10" fill="#22C55E"/>
+<rect x="886" y="652" width="590" height="54" rx="16" fill="#0B1220"/>
+<text x="912" y="687" fill="#E5E7EB" font-size="22" font-family="Arial, Helvetica, sans-serif">Synthetic event penalties</text>
+<rect x="1282" y="668" width="94" height="20" rx="10" fill="#F97316"/>
+<path d="M754 470H814" stroke="#475569" stroke-width="8" stroke-linecap="round"/>
+<path d="M786 438L822 470L786 502" stroke="#475569" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
