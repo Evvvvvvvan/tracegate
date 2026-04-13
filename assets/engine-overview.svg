@@ -1,0 +1,49 @@
+<svg width="1600" height="920" viewBox="0 0 1600 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="920" rx="32" fill="#F8FAFC"/>
+<text x="88" y="92" fill="#0F172A" font-size="52" font-family="Arial, Helvetica, sans-serif" font-weight="800">TraceGate Engine Overview</text>
+<text x="88" y="138" fill="#475569" font-size="24" font-family="Arial, Helvetica, sans-serif">Observation-first access control with progressive verification.</text>
+<rect x="88" y="210" width="260" height="170" rx="24" fill="#0F172A"/>
+<text x="118" y="264" fill="#F8FAFC" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">1. Entry</text>
+<text x="118" y="312" fill="#CBD5E1" font-size="22" font-family="Arial, Helvetica, sans-serif">Page load</text>
+<text x="118" y="344" fill="#CBD5E1" font-size="22" font-family="Arial, Helvetica, sans-serif">Auto bootstrap</text>
+<rect x="420" y="170" width="360" height="250" rx="24" fill="#ECFDF5" stroke="#A7F3D0"/>
+<text x="454" y="222" fill="#166534" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">2. Behavioral Observation</text>
+<text x="454" y="272" fill="#166534" font-size="21" font-family="Arial, Helvetica, sans-serif">• Dwell time</text>
+<text x="454" y="306" fill="#166534" font-size="21" font-family="Arial, Helvetica, sans-serif">• Pointer path and distance</text>
+<text x="454" y="340" fill="#166534" font-size="21" font-family="Arial, Helvetica, sans-serif">• Direction changes</text>
+<text x="454" y="374" fill="#166534" font-size="21" font-family="Arial, Helvetica, sans-serif">• Click / key / scroll activity</text>
+<text x="454" y="408" fill="#166534" font-size="21" font-family="Arial, Helvetica, sans-serif">• Trusted vs synthetic events</text>
+<rect x="852" y="210" width="260" height="170" rx="24" fill="#DBEAFE" stroke="#93C5FD"/>
+<text x="882" y="264" fill="#1D4ED8" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">3. Primary Score</text>
+<text x="882" y="312" fill="#1E3A8A" font-size="22" font-family="Arial, Helvetica, sans-serif">Silent evaluation</text>
+<text x="882" y="344" fill="#1E3A8A" font-size="22" font-family="Arial, Helvetica, sans-serif">within observation window</text>
+<rect x="1184" y="210" width="300" height="170" rx="24" fill="#FFF7ED" stroke="#FDBA74"/>
+<text x="1216" y="264" fill="#C2410C" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">4. Decision</text>
+<text x="1216" y="312" fill="#9A3412" font-size="22" font-family="Arial, Helvetica, sans-serif">Pass silently</text>
+<text x="1216" y="344" fill="#9A3412" font-size="22" font-family="Arial, Helvetica, sans-serif">or enter challenge</text>
+<rect x="420" y="520" width="360" height="250" rx="24" fill="#F5F3FF" stroke="#C4B5FD"/>
+<text x="454" y="572" fill="#6D28D9" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">5. Challenge Layer</text>
+<text x="454" y="622" fill="#5B21B6" font-size="21" font-family="Arial, Helvetica, sans-serif">• Slider drag duration</text>
+<text x="454" y="656" fill="#5B21B6" font-size="21" font-family="Arial, Helvetica, sans-serif">• Drag sample count</text>
+<text x="454" y="690" fill="#5B21B6" font-size="21" font-family="Arial, Helvetica, sans-serif">• Scroll rhythm and depth</text>
+<text x="454" y="724" fill="#5B21B6" font-size="21" font-family="Arial, Helvetica, sans-serif">• Challenge dwell time</text>
+<rect x="852" y="560" width="260" height="170" rx="24" fill="#ECFEFF" stroke="#67E8F9"/>
+<text x="882" y="614" fill="#0F766E" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">6. Secondary Score</text>
+<text x="882" y="662" fill="#115E59" font-size="22" font-family="Arial, Helvetica, sans-serif">Quality-based challenge</text>
+<text x="882" y="694" fill="#115E59" font-size="22" font-family="Arial, Helvetica, sans-serif">evaluation</text>
+<rect x="1184" y="560" width="300" height="170" rx="24" fill="#F0FDF4" stroke="#86EFAC"/>
+<text x="1216" y="614" fill="#15803D" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">7. Session Trust</text>
+<text x="1216" y="662" fill="#166534" font-size="22" font-family="Arial, Helvetica, sans-serif">Reuse pass state</text>
+<text x="1216" y="694" fill="#166534" font-size="22" font-family="Arial, Helvetica, sans-serif">for a time window</text>
+<path d="M348 295H404" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+<path d="M780 295H836" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+<path d="M1112 295H1168" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+<path d="M1300 388V470H600V504" stroke="#94A3B8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M780 645H836" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+<path d="M1112 645H1168" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+<circle cx="376" cy="295" r="8" fill="#94A3B8"/>
+<circle cx="808" cy="295" r="8" fill="#94A3B8"/>
+<circle cx="1140" cy="295" r="8" fill="#94A3B8"/>
+<circle cx="808" cy="645" r="8" fill="#94A3B8"/>
+<circle cx="1140" cy="645" r="8" fill="#94A3B8"/>
+</svg>
