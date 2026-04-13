@@ -1,0 +1,45 @@
+<svg width="1600" height="720" viewBox="0 0 1600 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="720" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0B1220"/>
+    <stop offset="1" stop-color="#1E293B"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="270" y1="130" x2="1310" y2="590" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#22C55E"/>
+    <stop offset="0.5" stop-color="#38BDF8"/>
+    <stop offset="1" stop-color="#8B5CF6"/>
+  </linearGradient>
+  <filter id="blurBig" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="60"/>
+  </filter>
+</defs>
+<rect width="1600" height="720" rx="36" fill="url(#bg)"/>
+<circle cx="340" cy="140" r="120" fill="#22C55E" opacity="0.18" filter="url(#blurBig)"/>
+<circle cx="1300" cy="560" r="140" fill="#8B5CF6" opacity="0.18" filter="url(#blurBig)"/>
+<rect x="72" y="72" width="1456" height="576" rx="28" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.08"/>
+<path d="M210 510C308 438 363 407 433 395C512 381 568 423 645 396C721 370 746 287 835 267C918 248 995 303 1077 302C1160 301 1225 237 1358 175" stroke="url(#glow)" stroke-width="6" stroke-linecap="round"/>
+<g opacity="0.95">
+  <circle cx="433" cy="395" r="10" fill="#22C55E"/>
+  <circle cx="645" cy="396" r="10" fill="#38BDF8"/>
+  <circle cx="835" cy="267" r="10" fill="#38BDF8"/>
+  <circle cx="1077" cy="302" r="10" fill="#8B5CF6"/>
+  <circle cx="1358" cy="175" r="12" fill="#22C55E"/>
+</g>
+<rect x="988" y="404" width="340" height="126" rx="22" fill="#0F172A" stroke="white" stroke-opacity="0.1"/>
+<text x="1020" y="446" fill="#E2E8F0" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="700">Behavior → Score → Gate</text>
+<text x="1020" y="480" fill="#94A3B8" font-size="18" font-family="Arial, Helvetica, sans-serif">Observe first. Challenge only when needed.</text>
+<rect x="1020" y="498" width="120" height="10" rx="5" fill="#1E293B"/>
+<rect x="1020" y="498" width="94" height="10" rx="5" fill="#22C55E"/>
+<text x="1153" y="506" fill="#CBD5E1" font-size="14" font-family="Arial, Helvetica, sans-serif">low-risk pass</text>
+<text x="118" y="228" fill="white" font-size="86" font-family="Arial, Helvetica, sans-serif" font-weight="800">TraceGate</text>
+<text x="118" y="288" fill="#CBD5E1" font-size="30" font-family="Arial, Helvetica, sans-serif">A behavior-aware access gate for modern web traffic.</text>
+<text x="118" y="334" fill="#94A3B8" font-size="24" font-family="Arial, Helvetica, sans-serif">Reads dwell time, movement rhythm, scroll cadence, and challenge quality</text>
+<text x="118" y="370" fill="#94A3B8" font-size="24" font-family="Arial, Helvetica, sans-serif">before deciding whether to pass silently or step into verification.</text>
+<rect x="118" y="430" width="180" height="54" rx="27" fill="#111827" stroke="#334155"/>
+<text x="152" y="464" fill="#F8FAFC" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="700">Drop-in JS</text>
+<rect x="316" y="430" width="250" height="54" rx="27" fill="#111827" stroke="#334155"/>
+<text x="350" y="464" fill="#F8FAFC" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="700">Progressive Challenge</text>
+<rect x="584" y="430" width="192" height="54" rx="27" fill="#111827" stroke="#334155"/>
+<text x="619" y="464" fill="#F8FAFC" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="700">Session Trust</text>
+<text x="118" y="558" fill="#64748B" font-size="19" font-family="Arial, Helvetica, sans-serif">EN first · 中文 follows in the same README</text>
+</svg>
