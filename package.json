@@ -1,0 +1,27 @@
+{
+  "name": "tracegate",
+  "version": "0.1.0",
+  "description": "A drop-in browser behavior guard that scores movement, scroll rhythm, and interaction patterns before deciding whether to pass or challenge.",
+  "main": "dist/anti-bot-guard.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "antibot",
+    "bot-detection",
+    "human-verification",
+    "frontend-security",
+    "risk-control",
+    "behavior-analysis",
+    "mouse-tracking",
+    "browser-security"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
